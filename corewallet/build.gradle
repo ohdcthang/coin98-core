@@ -41,16 +41,6 @@ publishing {
         }
     }
 
-    repositories {
-        maven{
-            name "GithubPackages"
-            url uri("https://maven.pkg.github.com/ohdcthang/core-wallet")
-            credentials {
-                username = "ohdcthang"
-                password = "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"
-            }
-        }
-    }
 }
 
 dependencies {
